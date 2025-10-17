@@ -25,7 +25,7 @@ services:
 
   frontend:
     image: rishitha22/docker12-frontend:latest
-    container_name: 3 react
+    container_name: react
     ports:
       - "3000:80"
     depends_on:
